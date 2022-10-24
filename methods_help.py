@@ -71,5 +71,6 @@ def method_help():
   
   phone_brands = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
   tv_brands = {"Sony", "Philips", "Samsung", "LG"}
-  isolated_sets = 
+  isolated_tvs = phone_brands.isdisjoint(tv_brands)
+  print(isolated_tvs)
   # Search the documentation for the requested method to know how it works.
